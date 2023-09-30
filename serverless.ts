@@ -7,7 +7,6 @@ const serverlessConfiguration: AWS = {
   plugins: [
     "serverless-esbuild",
     "serverless-offline",
-    "serverless-aws-documentation",
   ],
   provider: {
     name: "aws",
